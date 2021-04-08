@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="ConferenceClient">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConferenceClient</output-path>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
+    <properties id="javafx-properties">
+      <options>
+        <option name="alias" value="" />
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="enabledSigning" value="true" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="keystore" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Conference" />
+        <option name="vendor" value="Shaon" />
+        <option name="version" value="1.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="ConferenceClient.jar">
+        <element id="module-output" name="ConferenceClient" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java/Java Libraries/org.json.simple-0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java/Java Libraries/jna-5.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java/Java Libraries/log4j-1.2.17.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
